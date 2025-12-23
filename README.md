@@ -1,47 +1,81 @@
-<p align="center">
-  <img src="https://img.icons8.com/color/48/000000/magritte.png"/>
-</p>
-<h1 align="center">
-  gazijarin.com - v1
-</h1>
-<p align="center">
-  The first iteration of <a href="https://gazijarin.com" target="_blank">gazijarin.com</a> built with React.js leveraging Material UI.
-</p>
+# Personal Portfolio Website
 
-<img width="1306" alt="Screen Shot 2021-03-15 at 8 29 18 PM" src="https://user-images.githubusercontent.com/32211479/111238274-24f8b100-85cd-11eb-9d5a-00f07cbc05e9.png">
+A modern, responsive portfolio website built with React.js and Material UI.
 
-## 🛠 set-up
+## 🚀 Features
 
-1. Install the dependencies
+- Clean, minimalist design with dark theme
+- Responsive layout for all devices
+- Smooth animations and transitions
+- Interactive project showcase
+- Experience timeline
+- Tech stack display
 
-   ```sh
-   npm install or yarn
-   ```
+## 🛠 Tech Stack
 
-2. Start the development server
+- React.js
+- Material UI
+- Three.js (for 3D animations)
+- Bootstrap
+- React Router
 
-   ```sh
-   yarn run start
-   ```
+## 📦 Installation
 
-## 🚀 build and run for production
-
-1. Generate a full static production build
+1. Clone the repository
 
    ```sh
-   npm run build
+   git clone https://github.com/MhussainD4772/mohd-website.git
+   cd mohd-website
    ```
 
+2. Install dependencies
 
-## 🎨 color codes
+   ```sh
+   npm install --legacy-peer-deps
+   ```
 
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
-| Light Navy     | ![#112240](https://via.placeholder.com/10/0a192f?text=+) `#112240` |
-| Lightest Navy  | ![#233554](https://via.placeholder.com/10/303C55?text=+) `#233554` |
-| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
-| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
-| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
-| White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
-| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+3. Start the development server
+
+   ```sh
+   npm start
+   ```
+
+   The app will open at [http://localhost:3000](http://localhost:3000)
+
+## 🏗 Build for Production
+
+Generate a production build:
+
+```sh
+npm run build
+```
+
+The build folder will contain the optimized production files ready for deployment.
+
+## 🎨 Color Palette
+
+| Color          | Hex      |
+| -------------- | -------- |
+| Navy           | `#0a192f` |
+| Light Navy     | `#112240` |
+| Lightest Navy  | `#233554` |
+| Slate          | `#8892b0` |
+| Light Slate    | `#a8b2d1` |
+| Lightest Slate | `#ccd6f6` |
+| White          | `#e6f1ff` |
+| Green          | `#64ffda` |
+
+## 📝 License
+
+This project is open source and available under the MIT License.
+
+## 👤 Author
+
+**Mohd**
+
+- Portfolio: [Live Site](https://mohd-website.vercel.app)
+- GitHub: [@MhussainD4772](https://github.com/MhussainD4772)
+
+---
+
+Built with ❤️ using React.js
