@@ -82,39 +82,42 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
-    Amazon: {
+    "FNB Corporation": {
       jobTitle: "Software Development Engineer @",
-      duration: "JUL 2022 - PRESENT",
+      duration: "NOV 2024 - PRESENT",
       desc: [
-        "Led development of end-to-end region build automation across Route 53 (AWS's DNS web service).  This enabled the launch of customer-facing global services in new regions within a day, a significant reduction from the previous time-frame of a month.",
-        "Re-built Route 53's core domain management and DNS systems to provide a better user experience to millions of customers."
+        "Process Lead for two enterprise-scale platforms (Argo Connects & Argo Teller), owning test architecture, automation strategy, and cross-team technical alignment across releases.",
+        "Led development of a real-time customer–loan officer chat application using React, Socket.IO, and REST APIs, supporting live messaging, session handling, and multi-user workflows in a production environment.",
+        "Contributed directly to product development and feature enhancements across Argo Connects and Argo Teller, collaborating with backend and frontend teams to deliver production-grade improvements.",
+        "Actively driving AI/ML adoption within engineering workflows, finding ML-based use cases into automation and internal tooling."
       ]
     },
-    Wattpad: {
-      jobTitle: "Associate Engineer @",
-      duration: "MAY 2020 - APR 2021",
+    "University of the Cumberlands": {
+      jobTitle: "Research Software Engineer @",
+      duration: "JUL 2023 - JUN 2024",
       desc: [
-        "Developed a responsive React web page (the new Story Details) from scratch, both on client and server side, for an app with massive scale (2 billion daily requests).",
-        "Iteratively built web experiences for 80 million users across high-traffic pages.",
-        "Collaborated with senior engineers and product management following best practices for the full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations."
+        "designed and implemented research-grade software systems to support data analysis, experimentation, and reproducible workflows in an academic research environment.",
+        "Developed and optimized Python-based pipelines and scripts for data processing, analysis, and model experimentation, improving research iteration speed and result reliability.",
+        "Collaborated with faculty and graduate researchers to translate research requirements into production-quality code, documentation, and repeatable experiments suitable for publication and long-term use."
       ]
     },
-    "University of Toronto": {
-      jobTitle: "Research Engineer @",
-      duration: "MAY 2021 - SEPT 2021",
+    Amazon: {
+      jobTitle: "Software Engineer @",
+      duration: "AUG 2020 - AUG 2022",
       desc: [
-        "Developed and researched an NLP-based framework using state-of-the-art tools like Spacy and Stanza to facilitate the derivation of requirements from health data by leveraging syntactic dependencies, entity-recognition and rule-based match-making.",
-        " Application selected for DCS Research Award ($4,000) as part of the ”Visualizing Privacy Analysis Results” project led by Professor Marsha Chechik."
+        "Associate Software Engineer at Amazon (2 years), contributing to backend systems used at scale, with a strong focus on reliability, performance, and production-readiness in a fast-paced engineering environment.",
+        "Designed, developed, and maintained software components and services following Amazon engineering best practices (clean architecture, code reviews, operational excellence), ensuring high availability and long-term maintainability.",
+        "Collaborated cross-functionally with senior engineers and stakeholders to deliver features end-to-end, debug production issues, and continuously improve system quality and developer efficiency."
       ]
     },
-    Centivizer: {
-      jobTitle: "Software Developer @",
-      duration: "SEPT 2019 - APR 2020",
-      desc: [
-        "Developed interactive and neural-activation technologies to stimulate physical and cognitive functions in order to slow the progression of neurodegenerative disorders.",
-        "Leveraged WebRTC to develop and maintain a Node.js online video-streaming platform in real-time competitive-mode games to research the effects of active stimulation for those suffering from dementia."
-      ]
-    },
+    // Centivizer: {
+    //   jobTitle: "Software Developer @",
+    //   duration: "SEPT 2019 - APR 2020",
+    //   desc: [
+    //     "Developed interactive and neural-activation technologies to stimulate physical and cognitive functions in order to slow the progression of neurodegenerative disorders.",
+    //     "Leveraged WebRTC to develop and maintain a Node.js online video-streaming platform in real-time competitive-mode games to research the effects of active stimulation for those suffering from dementia."
+    //   ]
+    // },
     // TDSB: {
     //   jobTitle: "Software Engineer @",
     //   duration: "SEPT 2019 - DEC 2020",
@@ -122,15 +125,15 @@ const JobList = () => {
     //     "Co-developed homework management software integrable with Google Classroom by utilizing the Python’s Flask micro-framework for the back-end API and Vue.js for the front-end UI, in order to translate business requirements into a functional full-stack application."
     //   ]
     // },
-    "Orange Gate": {
-      jobTitle: "Software Developer Intern @",
-      duration: "MAY 2019 - AUG 2019",
-      desc: [
-        "Developed a Node.js smart home system through Facebook’s Messenger integrated with Bocco sensors and other smart devices (Nest camera, TPLink smart plugs) to derive conclusions about the current state of the home",
-        "Identified continuous improvements in data quality, design reports and coding activities, presenting results and findings to internal business stakeholders.",
-        "Relevant technologies/tools used: DialogFlow, Vision, AutoML, Messenger Bot API, MongoDB."
-      ]
-    }
+    // "Orange Gate": {
+    //   jobTitle: "Software Developer Intern @",
+    //   duration: "MAY 2019 - AUG 2019",
+    //   desc: [
+    //     "Developed a Node.js smart home system through Facebook’s Messenger integrated with Bocco sensors and other smart devices (Nest camera, TPLink smart plugs) to derive conclusions about the current state of the home",
+    //     "Identified continuous improvements in data quality, design reports and coding activities, presenting results and findings to internal business stakeholders.",
+    //     "Relevant technologies/tools used: DialogFlow, Vision, AutoML, Messenger Bot API, MongoDB."
+    //   ]
+    // }
   };
 
   const handleChange = (event, newValue) => {
