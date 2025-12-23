@@ -1,5 +1,6 @@
 import React from "react";
 import Intro from "./components/Intro";
+import TechStack from "./components/TechStack";
 import Experience from "./components/Experience";
 import About from "./components/About";
 import Projects from "./components/Projects";
@@ -15,6 +16,7 @@ function App() {
       <NavBar></NavBar>
       <div id="content">
         <Intro></Intro>
+        <TechStack></TechStack>
         <About></About>
         <Experience></Experience>
         <Projects></Projects>
