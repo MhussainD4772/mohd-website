@@ -6,7 +6,9 @@
   margin: auto;
   max-width: 1000px;
   padding-top: 200px;
+  padding-bottom: 20px;
   min-height: 100vh;
+  overflow: visible;
 }
 
 .Typist {
@@ -58,6 +60,9 @@
   cursor: pointer;
   border: 1px solid var(--green-bright);
   border-radius: 4px;
+  margin-bottom: 80px;
+  box-sizing: border-box;
+  display: inline-block;
 }
 
 .intro-contact:hover {
@@ -101,5 +106,6 @@ b {
 
   .intro-contact {
     font-size: 16px;
+    margin-bottom: 60px;
   }
 }
