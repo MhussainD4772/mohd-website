@@ -6,6 +6,7 @@ import BorderColorIcon from "@material-ui/icons/BorderColor";
 import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import DescriptionIcon from "@material-ui/icons/Description";
 import "../styles/NavBar.css";
 
 class NavBar extends React.Component {
@@ -23,6 +24,13 @@ class NavBar extends React.Component {
               <Nav.Link href="#projects">Projects</Nav.Link>
             </Nav>
             <Nav className="ml-auto">
+              <Nav.Link 
+                href="/Mohammed_Resume_SDE.pdf" 
+                download="Mohammed_Resume_SDE.pdf"
+                target="_blank"
+              >
+                <DescriptionIcon style={{ fontSize: 20 }}></DescriptionIcon>
+              </Nav.Link>
               <Nav.Link href="mailto:mohammedjoe53@gmail.com">
                 <EmailRoundedIcon style={{ fontSize: 20 }}></EmailRoundedIcon>
               </Nav.Link>
